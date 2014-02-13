@@ -1,0 +1,32 @@
+body
+{
+	font-family: baskerville,serif;
+	color: #DC322F;
+	background-color: #002B36;
+}
+
+pre
+{
+	font-style: italic;
+	margin: auto 2%;
+}
+
+p
+{
+	line-height: 1.5;
+	font-size: 22;
+	color: #839496;
+	margin: 3% 10%;
+}
+
+a
+{
+	color: #D33682;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	margin: auto 10%;
+	font-size: 26;
+	font-weight: bold;
+}
