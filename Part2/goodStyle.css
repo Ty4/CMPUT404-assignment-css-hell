@@ -1,3 +1,9 @@
+html, body
+{
+	height: 100%;
+	width: 100%;
+}
+
 div
 {
 	width: 100%;
@@ -14,7 +20,7 @@ div
 	box-shadow: 3px 3px 10px, inset 3px 3px 10px;
 }
 
-#head
+#head, #foot
 {
 	width: 100%;
 	height: 30px;
@@ -44,7 +50,7 @@ div
 	margin: auto 5px;
 	box-pack:center;
 	box-align:center;
-	display:-moz-inline-box;
+	display:-moz-box;
 	-moz-box-pack:center;
 	-moz-box-align:center;
 	display:-webkit-inline-box;
@@ -59,12 +65,13 @@ div
 
 .number
 {
-	display: inline-block;
+	font-weight: bold;
 	color: orange;
 	height: 50px;
 	margin-right: 15px;
 	position: relative;
 	float: right;
+	display: inline-block;
 	box-pack:center;
 	box-align:center;
 	display:-moz-inline-box;
@@ -78,6 +85,7 @@ div
 .content_block
 {
 	position: relative;
+	height: 75%;
 }
 
 .content
@@ -120,7 +128,22 @@ div
 {
 
 	position: absolute;
-	height: 30px;
+	color: white;
+	text-align: center;
+	height: 40px;
 	width: 100%;
-	z-index: 1;
+}
+
+#foot
+{
+	position: relative;
+	bottom: -50px;
+	height: 40px;
+	z-index: -10;
+}
+
+.footer .number
+{
+	color: #202020;
+	height: 40px;
 }
