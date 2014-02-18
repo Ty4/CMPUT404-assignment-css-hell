@@ -35,10 +35,18 @@ div
 
 .button
 {
-	/*background-color: red;*/
+	display: inline-block;
 	color: white;
-	height: 5880px;
-	margin: 5px;
+	height: 50px;
+	margin: auto 5px;
+	box-pack:center;
+	box-align:center;
+	display:-moz-inline-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+	display:-webkit-inline-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
 }
 
 .content
