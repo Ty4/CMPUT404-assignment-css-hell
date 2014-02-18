@@ -27,6 +27,8 @@ div
 	top: 166px;
 	height: 50px;
 	width: 100%;
+	text-align: center;
+	color: white;
 	background: -webkit-linear-gradient(#202020, #505050); /* Safari */
 	background: -o-linear-gradient(#202020, #505050); /* For Opera 11.1 to 12.0 */
 	background: -moz-linear-gradient(#202020, #505050); /* For Firefox 3.6 to 15 */
@@ -35,8 +37,9 @@ div
 
 .button
 {
+	cursor: default;
 	display: inline-block;
-	color: white;
+	font-weight: bold;
 	height: 50px;
 	margin: auto 5px;
 	box-pack:center;
@@ -47,6 +50,34 @@ div
 	display:-webkit-inline-box;
 	-webkit-box-pack:center;
 	-webkit-box-align:center;
+}
+
+.button:hover
+{
+	color: #0033CC;
+}
+
+.number
+{
+	display: inline-block;
+	color: orange;
+	height: 50px;
+	margin-right: 15px;
+	position: relative;
+	float: right;
+	box-pack:center;
+	box-align:center;
+	display:-moz-inline-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+	display:-webkit-inline-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+}
+
+.content_block
+{
+	position: relative;
 }
 
 .content
@@ -87,5 +118,9 @@ div
 
 .footer
 {
-	background-color: ;
+
+	position: absolute;
+	height: 30px;
+	width: 100%;
+	z-index: 1;
 }
